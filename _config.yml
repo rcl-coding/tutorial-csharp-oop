@@ -1,0 +1,10 @@
+title: C# Object Oriented Programming
+description: In the tutorial you will perform object oriented programming with C# 
+remote_theme: pmarsceill/just-the-docs
+search_enabled: true
+aux_links:
+    "Coding Skills.IO":
+      - "https://rclapp.com"
+footer_content: "Copyright &copy; 2020 Ray Consulting Limited - Coding Skills.IO."
+plugins:
+  - jekyll-seo-tag
