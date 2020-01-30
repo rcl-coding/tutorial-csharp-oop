@@ -17,7 +17,7 @@ In static classes, you do not need to instantiate objects.
 
 - Implement the static class as follows :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -71,7 +71,7 @@ Since we do not need to instantiate an object, we can return the value from the 
 <script>
 var disqus_config = function () {
 this.page.url = 'https://csharpoop.tutorial.rclapp.com/lessons/lesson6.html';
-this.page.identifier = 'f04-06'; 
+this.page.identifier = 'a04-06'; 
 };
 (function() { 
 var d = document, s = d.createElement('script');

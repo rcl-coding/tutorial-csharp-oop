@@ -17,7 +17,7 @@ An interface contains only the signatures of methods. A class that inherits from
 
 - Add a class named Rectangle that inherits from the IShape interface
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -62,7 +62,7 @@ The Rectangle class has Length and Breadth properties and a constructor to initi
 
 - Write code to use the interface as follows :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -123,7 +123,7 @@ The following example illustrates how we can use an interface in a constructor o
 
 This pattern is important for **dependency injection** and the **dependency inversion principle**.
 
-```csharp
+```java
     // Add an IShape interface
     public interface IShape
     {
@@ -172,7 +172,7 @@ Since IShape has a method for Area, we could use that in the Solid class to defi
 
 - Write the following code to calculate the volume if a cuboid :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -249,7 +249,7 @@ The volume of the cuboid is 24
 <script>
 var disqus_config = function () {
 this.page.url = 'https://csharpoop.tutorial.rclapp.com/lessons/lesson4.html';
-this.page.identifier = 'f04-04'; 
+this.page.identifier = 'a04-04'; 
 };
 (function() { 
 var d = document, s = d.createElement('script');

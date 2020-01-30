@@ -15,7 +15,7 @@ Inheritance allows you to extend the functionality of an existing class by creat
 
 - Add a 'Cylinder' class that inherits from the 'Circle' class as follows :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -50,7 +50,7 @@ The Cylinder class , because it inherits from the Circle class, will also have a
 
 - Write the following code to get the radius property (inherited) of the Cylinder :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -94,7 +94,7 @@ The override modifier is required to extend or modify the virtual implementation
 
 -  Add a virtual method in the Circle class. Override the virtual method in the Cylinder class as follows :
 
-```csharp
+```java
     // Add a virtual method
     public class Circle
     {
@@ -125,7 +125,7 @@ Therefore, in the Cylinder class, we can override the method to provide a functi
 
 - Write the following code to calculate the area of a cylinder
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -184,7 +184,7 @@ The surface area of the cylinder is 62.80
 <script>
 var disqus_config = function () {
 this.page.url = 'https://csharpoop.tutorial.rclapp.com/lessons/lesson3.html';
-this.page.identifier = 'f04-03'; 
+this.page.identifier = 'a04-03'; 
 };
 (function() { 
 var d = document, s = d.createElement('script');

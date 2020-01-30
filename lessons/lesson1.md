@@ -18,7 +18,7 @@ A **class** is the blueprint from which individual objects are created.
 
 - Create a class as named Square :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -51,7 +51,7 @@ An object is an instance of a class.
 
 - Create two objects (smallSquare and bigSquare) as follows :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -101,7 +101,7 @@ Constructors set the initial values of properties when a class in instantiated.
 
 - Add a constructor in the Square class as follows :
 
-```csharp
+```java
 public class Square
 {
     public int Side { get; set; }
@@ -116,7 +116,7 @@ public class Square
 
 - Use the constructor to set the value of the 'Side' property as follows :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -161,6 +161,22 @@ We instantiate an object named 'mySquare; and pass in an argument of 4 to the co
 
 ****
 
+# Bob Tabor Videos
+
+****
+
+> NOTE - These videos are a little dated, Visual Studio 2013/2015 is being used here. But the principles are basically the same.
+
+*****
+
+## Understanding Data Types and Variables
+
+<div style="position: relative;overflow: hidden;padding-top: 56.25%;">
+<iframe src="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners/Understanding-Classes/player" style="position: absolute; top: 0;left: 0; width: 100%; height: 100%;border: 0" allowFullScreen frameBorder="0" title="Understanding Classes - Microsoft Channel 9 Video"></iframe>
+</div>
+
+****
+
 [![ad](../img/online-mentoring.jpg)](https://rclapp.com/mentors.html)
 
 ****
@@ -169,7 +185,7 @@ We instantiate an object named 'mySquare; and pass in an argument of 4 to the co
 <script>
 var disqus_config = function () {
 this.page.url = 'https://csharpoop.tutorial.rclapp.com/lessons/lesson1.html';
-this.page.identifier = 'f04-01'; 
+this.page.identifier = 'a04-01'; 
 };
 (function() { 
 var d = document, s = d.createElement('script');

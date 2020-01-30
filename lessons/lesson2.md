@@ -14,7 +14,7 @@ A method carries out a function within a class.
 
 - In the Square class add a method to calculate the area of the square :
 
-```csharp
+```java
     public class Square
     {
         public int Side { get; set; }
@@ -34,7 +34,7 @@ A method carries out a function within a class.
 
 - Use the method to calculate the area of a square as follows :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -88,7 +88,7 @@ This is called **method overloading**.
 
 - Create a class named 'Shape' with method overloads as follows :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -119,7 +119,7 @@ namespace HelloWorld
 
 - Use the method overloads to calculate area of a circle and rectangle as follows :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -186,7 +186,7 @@ The CalculateArea method has two overloads.
 <script>
 var disqus_config = function () {
 this.page.url = 'https://csharpoop.tutorial.rclapp.com/lessons/lesson2.html';
-this.page.identifier = 'f04-02'; 
+this.page.identifier = 'a04-02'; 
 };
 (function() { 
 var d = document, s = d.createElement('script');

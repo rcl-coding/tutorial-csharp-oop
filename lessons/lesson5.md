@@ -19,7 +19,7 @@ An abstract class cannot be instantiated and can contain abstract and non-abstra
 
 - Add a Multiplier class that inherits from the MathBase abstract class
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -87,7 +87,7 @@ The Multiplier class inherits from the MathBase abstract class and multiplies th
 
 - Write the following code to implement the Adder and Multiplier classes :
 
-```csharp
+```java
 using System;
 
 namespace HelloWorld
@@ -172,7 +172,7 @@ The product of 2 and 6 is 12
 <script>
 var disqus_config = function () {
 this.page.url = 'https://csharpoop.tutorial.rclapp.com/lessons/lesson5.html';
-this.page.identifier = 'f04-05'; 
+this.page.identifier = 'a04-05'; 
 };
 (function() { 
 var d = document, s = d.createElement('script');
